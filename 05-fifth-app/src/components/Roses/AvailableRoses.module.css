@@ -1,0 +1,25 @@
+
+.roses {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: roses-appear 1s ease-out forwards;
+  }
+  
+  .roses ul {
+    list-style: none;
+    margin: 00;
+    padding: 0;
+  }
+  
+  @keyframes roses-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
